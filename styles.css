@@ -13,9 +13,26 @@ img {
 
 .hero {
     background-image: url("./images/torshov.jpg");
+    background-size: cover;
     padding: 3em 4em;
     height: 250px;
-    margin: 0;
+}
+
+h1 {
+    color: white;
+    background-color: #1D3557;
+    padding: .1em .1em;
+    width: 6em;
+    border-radius: 10px;
+    margin: 1em auto;
+}
+
+h2 {
+    color: white;
+    background-color: #457B9D;
+    width: 17em;
+    border-radius: 10px;
+    margin: 0 auto;
 }
 
 .activities {
