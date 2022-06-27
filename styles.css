@@ -1,10 +1,12 @@
 body {
     margin: 0;
     text-align: center;
+    font-size: 16px;
+    font-family: 'Staatliches', cursive;
 }
 
 img {
-    width: 100px;
+    width: 70%;
     margin-top: 3.75em;
     border-radius: 5em;
 }
@@ -12,13 +14,15 @@ img {
 .hero {
     background-image: url("./images/torshov.jpg");
     padding: 3em 4em;
+    height: 250px;
     margin: 0;
 }
 
 .activities {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #F1FAEE;
+    height: 350px;
 }
 
 .activity-cards {
@@ -32,19 +36,22 @@ img {
 
 .your-guide {
     padding: 3em 1em;
-    background: #A8DADC;;
+    background: #A8DADC;
     display: flex;
     align-items: center;
     box-shadow: 0px 6px 0px #1D3557;
     border-radius: 10px;
+    height: 200px;
 }
 
 .profile-pic {
-   border-radius: .75em;
-   width: 50%;
+    background-color: lightcyan;
+    border-radius: .75em;
+    width: 50%;
 }
 
 .guide-card {
+    background-color: pink;
     width: 50em;
     text-align: center;
     color: #2b2839;
