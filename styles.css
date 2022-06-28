@@ -49,6 +49,7 @@ h2 {
 .guide {
     margin: 0;
     padding: 3em 5em;
+    background-color:azure;
 }
 
 .your-guide {
@@ -62,7 +63,6 @@ h2 {
 }
 
 .profile-pic {
-    background-color: lightcyan;
     border-radius: .75em;
     width: 50%;
 }
